@@ -28,20 +28,21 @@
         "typeorm-example",
         "typeorm-koa-example"
     ],
-    "devDependencies": {
-        "@types/koa": "^2.0.45",
-        "@types/koa-bodyparser": "^4.2.0",
-        "@types/koa-router": "^7.0.27",
-        "@types/node": "^9.6.5",
-        "nodemon": "^2.0.4",
-        "ts-node": "^9.0.0",
-        "typescript": "^2.8.1"
-    },
     "dependencies": {
         "koa": "^2.5.0",
         "koa-bodyparser": "^4.2.0",
         "koa-router": "^7.4.0",
         "mysql": "^2.15.0",
-        "typeorm": "^0.2.0"
+        "reflect-metadata": "^0.1.13",
+        "typeorm": "^0.2.25"
+    },
+    "devDependencies": {
+        "@types/koa": "^2.0.45",
+        "@types/koa-bodyparser": "^4.2.0",
+        "@types/koa-router": "^7.0.27",
+        "@types/node": "^9.6.58",
+        "nodemon": "^2.0.4",
+        "ts-node": "^9.0.0",
+        "typescript": "^2.8.1"
     }
 }
